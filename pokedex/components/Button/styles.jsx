@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         elevation: 8,
     },
     buttonText: {
-        color: "#fff",
+        color: "fff",
         fontWeight: "bold",
     },
 });

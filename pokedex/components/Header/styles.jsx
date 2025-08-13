@@ -1,17 +1,17 @@
 import { StyleSheet } from "react-native";
 
-export const styles = StlyleSheet.create({
+export const styles = StyleSheet.create({
     container: {
-        margimBottom: 10,
+        marginBottom: 10,
     },
     imageContainer: {
-        heoght: 100,
+        height: 100,
     },
     image: {
-        widht: "100%",
-        opacity: 0.2,
+        width: "100%",
+        opacity: 0.25,
         height: 250,
-        position:"absolute",
+        position: "absolute",
         top: -150,
         resizeMode: "cover",
     },
@@ -19,11 +19,11 @@ export const styles = StlyleSheet.create({
         paddingHorizontal: 15,
         marginTop: -40,
     },
-    backButtom: {
+    backButton: {
         marginRight: 15,
     },
     title: {
         fontSize: 32,
-        fontweight: "bold",
+        fontWeight: "bold"
     },
 });
